@@ -1,6 +1,6 @@
 components:
   - name: github.com/helm/examples
-    version: v1.0.0
+    version: v1.0.1
     provider:
       name: mayank
     resources:
@@ -8,7 +8,7 @@ components:
         type: helmChart
         input:
           type: helm
-          path: hello-world-0.1.0.tgz
+          path: ./hello-world
       - name: helloworld-image
         type: ociImage
         version: "1.23.3"
