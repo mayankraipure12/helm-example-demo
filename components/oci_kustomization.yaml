@@ -9,5 +9,5 @@ spec:
   targetNamespace: default
   sourceRef:
     kind: OCIRepository
-    name: vault-helm-localized
+    name: vault-helm
   path: ../
