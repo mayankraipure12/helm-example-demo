@@ -1,6 +1,6 @@
 components:
   - name: github.com/helm/examples
-    version: v1.0.2
+    version: v1.0.3
     provider:
       name: mayank
     resources:
@@ -9,6 +9,12 @@ components:
         input:
           type: helm
           path: ./hello-world
+      - name: config
+        type: PlainText
+        input:
+          type: file
+          path: "value-config.yaml"
+          compress: true
       - name: helloworld-image
         type: ociImage
         version: "1.23.3"
