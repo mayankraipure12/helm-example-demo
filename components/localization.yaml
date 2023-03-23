@@ -1,7 +1,7 @@
 apiVersion: delivery.ocm.software/v1alpha1
 kind: Localization
 metadata:
-  name: vault-helm
+  name: vault-helm-loc
   namespace: ocm-system
 spec:
   interval: 1m0s
@@ -11,12 +11,12 @@ spec:
   source:
     sourceRef:
       kind: Snapshot
-      name: vault-helm
+      name: vault-helm-snapsot
       namespace: ocm-system
   configRef:
     resource:
       resourceRef:
         name: config
   snapshotTemplate:
-    name: vault-helm-localized
+    name: vault-helm-snapsot-localized
     createFluxSource: true
