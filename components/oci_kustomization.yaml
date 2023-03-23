@@ -10,4 +10,4 @@ spec:
   sourceRef:
     kind: OCIRepository
     name: vault-helm-localized
-  path: ../
+  path: ./
