@@ -12,4 +12,3 @@ spec:
     name: helloworld-chart
   snapshotTemplate:
     name: vault-helm
-    createFluxSource: true
