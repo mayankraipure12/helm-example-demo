@@ -11,12 +11,12 @@ spec:
   source:
     sourceRef:
       kind: Snapshot
-      name: vault-helm-snapsot
+      name: vault-helm-snapshot
       namespace: ocm-system
   configRef:
     resource:
       resourceRef:
         name: config
   snapshotTemplate:
-    name: vault-helm-snapsot-localized
+    name: vault-helm-snapshot-localized
     createFluxSource: true
