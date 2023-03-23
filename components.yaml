@@ -8,7 +8,7 @@ components:
         type: helmChart
         input:
           type: helm
-          path: ./hello-world
+          path: ../hello-world
       - name: config
         type: PlainText
         input:
