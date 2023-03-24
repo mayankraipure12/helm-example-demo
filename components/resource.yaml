@@ -4,7 +4,7 @@ metadata:
   name: vault-helm
   namespace: ocm-system
 spec:
-  interval: 10m0s
+  interval: 1m0s
   componentVersionRef:
     name: vault
     namespace: ocm-system
