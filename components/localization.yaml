@@ -8,7 +8,7 @@ spec:
   componentVersionRef:
     name: vault
     namespace: ocm-system
-  resource:
+  source:
     resourceRef:
       kind: Resource
       name: vault-helm
