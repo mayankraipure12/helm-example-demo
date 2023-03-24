@@ -10,7 +10,6 @@ spec:
     namespace: ocm-system
   source:
     resourceRef:
-      kind: Resource
       name: vault-helm
       namespace: ocm-system
   # configRef:
