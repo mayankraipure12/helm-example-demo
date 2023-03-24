@@ -1,6 +1,6 @@
 components:
   - name: github.com/helm/examples
-    version: v1.0.5
+    version: v1.0.6
     provider:
       name: mayank
     resources:
