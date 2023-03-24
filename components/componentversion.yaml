@@ -1,0 +1,19 @@
+apiVersion: delivery.ocm.software/v1alpha1
+kind: ComponentVersion
+metadata:
+  name: vault
+  namespace: ocm-system
+spec:
+  interval: 10m0s
+  component: github.com/helm/examples
+  version:
+    semver: v1.0.7
+  repository:
+    url: ghcr.io/mayankraipure12
+    secretRef:
+      name: creds
+  verify:
+    - name: alice
+      publicKey:
+        secretRef:
+          name: alice-publickey
