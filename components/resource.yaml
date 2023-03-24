@@ -10,5 +10,7 @@ spec:
     namespace: ocm-system
   resource:
     name: helloworld-chart
+    referencePath:
+      - name: installer
   snapshotTemplate:
     name: vault-helm
