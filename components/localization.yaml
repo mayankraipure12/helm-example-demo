@@ -8,9 +8,9 @@ spec:
   componentVersionRef:
     name: vault
     namespace: ocm-system
-  source:
-    sourceRef:
-      kind: Snapshot
+  resource:
+    resourceRef:
+      kind: Resource
       name: vault-helm
       namespace: ocm-system
   # configRef:
