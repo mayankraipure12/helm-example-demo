@@ -11,7 +11,6 @@ spec:
   source:
     resourceRef:
       name: vault-helm
-      namespace: ocm-system
   # configRef:
   #   resource:
   #     resourceRef:
