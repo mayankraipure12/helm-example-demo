@@ -11,7 +11,8 @@ spec:
   source:
     resourceRef:
       name: vault-helm
-      referencePath: installer
+      referencePath:
+        - name: installer
   # configRef:
   #   resource:
   #     resourceRef:
