@@ -4,7 +4,7 @@ metadata:
   name: ocm-config
 localization:
   - name: image
-    file: ./hello-world/values.yaml
+    file: values.yaml
     image: image.repository
     resource:
       name: helloworld-image
