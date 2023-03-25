@@ -1,0 +1,16 @@
+apiVersion: delivery.ocm.software/v1alpha1
+kind: Resource
+metadata:
+  name: vault-helm
+  namespace: ocm-system
+spec:
+  interval: 1m0s
+  componentVersionRef:
+    name: vault
+    namespace: ocm-system
+  resource:
+    name: helloworld-chart
+    referencePath:
+      - name: installer
+  snapshotTemplate:
+    name: vault-helm
